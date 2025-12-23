@@ -44,7 +44,7 @@ public:
         else return 'D';
     }
 
-    // No override keyword (C++98)
+    
     void display() {
         Person::display();
         cout << "Course: " << course << endl;
@@ -107,7 +107,7 @@ public:
     }
 };
 
-// Main
+
 int main() {
     StudentManager manager;
     int choice;
@@ -141,5 +141,6 @@ int main() {
 
     return 0;
 }
+
 
 
